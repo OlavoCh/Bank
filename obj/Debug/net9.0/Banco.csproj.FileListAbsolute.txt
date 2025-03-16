@@ -12,3 +12,4 @@ C:\Users\olavo\Programs\Banco\obj\Debug\net9.0\refint\Banco.dll
 C:\Users\olavo\Programs\Banco\obj\Debug\net9.0\Banco.pdb
 C:\Users\olavo\Programs\Banco\obj\Debug\net9.0\Banco.genruntimeconfig.cache
 C:\Users\olavo\Programs\Banco\obj\Debug\net9.0\ref\Banco.dll
+C:\Users\olavo\Programs\Banco\obj\Debug\net9.0\Banco.sourcelink.json
