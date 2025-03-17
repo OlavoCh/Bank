@@ -14,10 +14,11 @@ namespace Pessoa.Entities
         }
         public string Name { get; private set; }
         public int Age { get; private set;}
+        public string PassWord { get; private set; }   
 
         public void ShowPerson()
         {
-            Console.WriteLine($" ----Nome: {Name}, idade {Age}---- ");
+            Console.WriteLine($" ----Nome: {Name}, idade {Age}, ID {HashCode.Combine(Name)}---- ");
         }
 
 
