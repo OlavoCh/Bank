@@ -8,15 +8,13 @@ namespace Banco.Bank
 {
     public class Bank
     {
-        public int Saldo{get; private set;}
-        public int Trabalhar{get; private set;} 
+        public int Saldo{get; private set;} = 0;
 
         public void Trabalhando(){  
-            Saldo = 0;    
-            Console.WriteLine(" ----Deseja trabalhar quantas vezes?---- ");
+            Console.Write(" ----Deseja trabalhar quantas vezes? ");
             int n1 = int.Parse(Console.ReadLine());
             for (int i = 1; i <= n1; i++){
-              Saldo++;
+            Saldo += 1;
             } 
         }
         public void Conta(){
